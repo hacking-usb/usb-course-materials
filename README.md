@@ -1,12 +1,12 @@
-<table><tr><td>
+<table style="border: none !important;" ><tr style="border: none;"><td style="border: none;">
 <a href="https://greatscottgadgets.com"><img class="w-100 mx-auto d-block" style="max-width: 450px;padding: 50px;padding-top: 4vh;" src="placeholder_gsg_monotone.png" /></a>
-</td><td>
-        <h3 class="text-center">
+</td><td style="border: none;">
+        <h3 class="text-center" style="text-align: center;">
         	<p><img src="FaceDancer_logo_90cw.png" width="200px"></p>
             <p><strong>Hacking the USB World with FaceDancer</strong><br />
             <small>with <a href="https://twitter.com/ktemkin">Kate Temkin</a>, <a href="https://twitter.com/dominicgs">Dominic Spill</a>, and <a href="https://twitter.com/michaelossmann">Michael Ossmann</a></small></p><br/>
-            <p><small><small><b>Current iteration:</b> <a href="https://hardwaresecurity.training/venue/">hardwaresecurity.training</a></small></small><br />
-            <small><small>November 28th - 29th; Redwood City, CA, USA</small></small></p>
+            <p><small><small><b>Current iteration:</b> <a href="https://usb.ktemkin.com/">see CTF system</a></small></small><br />
+            <small><small>locations and dates available on CTF system</small></small></p>
         </h3>
 </td></tr></table>
 <br />
@@ -14,10 +14,10 @@
 <p><strong>Getting Started & Materials</strong></p>
 <ul>
 <li> <a href="Schedule_HS_T_2018.pdf">Approximate Schedule</a></li>
-<li> <a href="/challenge-setup">Setting up the hardware for the exercises</a></li>
-<li> <a href="/usbmon">Monitoring USB communications with USBMon</a></li>
-<li> <a href="/challenges">Lab exercises</a></li>
-<li> <a href="/tools">Tool Repositories & Binaries</a></li>
+<li> <a href="challenge-setup">Setting up the hardware for the exercises</a></li>
+<li> <a href="usbmon-guide">Monitoring USB communications with USBMon</a></li>
+<li> <a href="challenges">Lab exercises</a></li>
+<li> <a href="tools">Tool Repositories & Binaries</a></li>
 </ul>
 
 <p><strong>Reference</strong></p>

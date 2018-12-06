@@ -14,7 +14,7 @@
 <p><strong>Getting Started & Materials</strong></p>
 <ul>
 <li> <a href="Schedule_HS_T_2018.pdf">Approximate Schedule</a></li>
-<li> <a href="challenge-setup">Setting up the hardware for the exercises</a></li>
+<li> <a href="challenge-setup-hw">Setting up the hardware for the exercises</a></li>
 <li> <a href="usbmon-guide">Monitoring USB communications with USBMon</a></li>
 <li> <a href="challenges">Lab exercises</a></li>
 <li> <a href="tools">Tool Repositories & Binaries</a></li>

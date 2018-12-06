@@ -5,10 +5,11 @@ Over the course of this training, you'll solve challenges that use real hardware
 Most challenges will include a pair of _binaries_:
 
 * __Binaries with a <i class="fas fa-laptop"></i> icon are intended to run on your <i>host computer</i>, and are "statically linked"-- which means they include most of their dependencies.__ <br />They've been tested with the Ubuntu image distributed during in-person classes, but will likely also work on other Linux installations.
-* __Binaries with a <i class="fab fa-usb"></i> icon are intended to run on a _GreatFET_ __.<br/>You'll program these to <u>one</u> of the two GreatFET devices provided with the course-- allowing the GreatFET to simulate a target device.
+* __Binaries with a <i class="fab fa-usb"></i> icon are intended to run on a _GreatFET_ .__ <br/>You'll program these to <u>one</u> of the two GreatFET devices provided with the course-- allowing the GreatFET to simulate a target device.
 
 <br />
-####Ensuring you're on the latest verisons
+
+#### Ensuring you're on the latest verisons
 The live USB image provied with the course ships with copies of each of the open-source projects used in the course. Before you being, run the following commands to ensure you have the latest versions:
 
 ```
@@ -28,7 +29,8 @@ sudo python3 setup.py install
 ```
 
 <br />
-####Loading a GreatFET Binary <i class="fab fa-usb"></i>
+
+#### Loading a GreatFET Binary <i class="fab fa-usb"></i>
 
 The easiest way to load <i class="fab fa-usb"></i> _GreatFET Target_ binaries is using the `greatfet_firmware`. To keep things simple, we'll load from _Device Firmware Update (DFU) mode_ -- which works no matter the state of your GreatFET and makes selecting which GreatFET you're working with easy. 
 
@@ -65,7 +67,8 @@ greatfet firmware -d -w ~/greatfet_usb.bin
 ```
 
 <br />
-####Running a Host Binary <i class="fas fa-laptop"></i>
+
+#### Running a Host Binary <i class="fas fa-laptop"></i>
 
 Host binaries are designed to run from the training's live environment, but will likely run on any modern Linux machine. You can run these binaries in the same way you'd run any other Linux script or binary. To run a program called `host_communication`, you'd simply run the binary from the Linux command line:
 

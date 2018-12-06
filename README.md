@@ -28,9 +28,9 @@
 
 <p><strong>Lecture Materials (Day 1)</strong></p>
 <ul>
-<li> <a href="Whirlwind_Tour_Of_USB.pdf">Lecture 1: A Whirlwind Tour of USB</a></li>
-<li> <a href="Control_and_Enumeration.pdf">Lecture 2: Enumeration and the Control Endpoint</a></li>
-<li> <a href="Endpoints_and_Interfaces.pdf">Lecture 3: Interfaces, Endpoints, and Transfers</a></li>
+<li> <a href="slides/Whirlwind_Tour_Of_USB.pdf">Lecture 1: A Whirlwind Tour of USB</a></li>
+<li> <a href="slides/Control_and_Enumeration.pdf">Lecture 2: Enumeration and the Control Endpoint</a></li>
+<li> <a href="slides/Endpoints_and_Interfaces.pdf">Lecture 3: Interfaces, Endpoints, and Transfers</a></li>
 <li> Talk/Demos 4: Emulating USB Devices</li>
 </ul>
 

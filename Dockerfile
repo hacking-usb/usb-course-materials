@@ -10,10 +10,10 @@ WORKDIR /work
 COPY . /work
 
 # Create a Ubuntu user to mirror the liveCD.
-RUN useradd -m -G adm,plugdev,sudo ubuntu
+RUN useradd -m -G adm,plugdev,sudo ubuntu -p ubuntu -p ""
 
 # Provision the environment.
-RUN bash provision_ubuntu.sh 'docker'
+RUN bash provision_ubuntu.sh 'docker_ui'
 
 # Run as the default ubuntu user.
 USER ubuntu

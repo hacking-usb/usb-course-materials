@@ -18,6 +18,9 @@ fi
 # If this isn't the host of a container, install the necessary files. This is most of the time.
 if [ "$PROVISION_TYPE" != "host" ]; then
 
+    # Ensure we have access to the Universe repository.
+    apt-add-repository universe
+
     # Ensure we have the latest repostiory information.
     apt-get update
 

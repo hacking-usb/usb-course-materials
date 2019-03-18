@@ -1,4 +1,3 @@
-<br />
 ## Course Software Tools & Environment
 
 To simplify completing the course exercises, a full lab environment -- including all of the necessary software -- is distributed in three forms:

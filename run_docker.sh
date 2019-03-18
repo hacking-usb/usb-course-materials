@@ -12,7 +12,7 @@ if [ -z $DISPLAY ]; then
         --env="DISPLAY" \
         --env="QT_X11_NO_MITSHM=1" \
         --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-        --volume="$HOME:$HOME" \
+        --volume="$(pwd):/work" \
     --device="/dev/usbmon*" \
         ${IMAGE} \
         ${COMMAND}
@@ -27,7 +27,7 @@ else
         --env="DISPLAY" \
         --env="QT_X11_NO_MITSHM=1" \
         --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-        --volume="$HOME:$HOME" \
+        --volume="$(pwd):/work" \
     --device="/dev/usbmon*" \
         ${IMAGE} \
         ${COMMAND}

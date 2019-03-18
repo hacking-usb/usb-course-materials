@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import sys
 import usb
@@ -27,7 +27,7 @@ print("Request secret from the device...")
 try:
     max_length = 128
     flag = dev.ctrl_transfer(DEVICE_TO_HOST | VENDOR_REQUEST, 0, 0, 0, max_length)
-except:
+except e:
     print("Failed to communicate with the license dongle!")
     sys.exit(0)
 

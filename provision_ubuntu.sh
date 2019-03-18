@@ -44,12 +44,12 @@ fi
 # If this isn't the host of a container, install the necessary files. This is most of the time.
 if [ "$PROVISION_TYPE" != "host" ]; then
 
+    # Ensure we have the latest repostiory information.
+    apt-get update
+
     # Ensure we have access to the Universe repository.
     apt-get install -y software-properties-common
     apt-add-repository universe
-
-    # Ensure we have the latest repostiory information.
-    apt-get update
 
     # Install packages.
     apt-get install -y apt-utils
@@ -65,8 +65,13 @@ if [ "$PROVISION_TYPE" != "host" ]; then
     [ -d facedancer ] || git clone --recursive https://github.com/hacking-usb/facedancer.git facedancer
     [ -d course-materials ] || git clone --recursive https://github.com/hacking-usb/usb-course-materials.git course-materials
 
+    # Make sure everything's up to date (in case we're updating, rather than downloading)
+    git -C greatfet pull
+    git -C facedancer pull
+    git -C course-materials pull
+
     # Install our local python packages.
-    pip3 install host-tools/*py3*.whl
+    pip3 install course-materials/host-tools/*py3*.whl
 
 fi
 

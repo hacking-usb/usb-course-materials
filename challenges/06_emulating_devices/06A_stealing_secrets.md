@@ -1,7 +1,7 @@
 ##### Challenge files:
 
 * <i class="fab fa-usb"></i> InSec IoT Updater (attached)
-* <i class="fas fa-laptop"></i> FaceDancer Skeleton
+* <i class="fas fa-laptop"></i> FaceDancer Skeleton (attached)
 
 
 ##### Challenge
